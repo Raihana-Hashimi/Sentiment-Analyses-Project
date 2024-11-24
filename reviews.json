@@ -1,0 +1,23 @@
+{
+    "positive": [
+        {
+            "review": "Oh this was amazing",
+            "confidence": "99.99%"
+        },
+        {
+            "review": "Oh, what a surprise! The product works just as expected, which is exactly what I hoped for... because nothing says excitement like meeting the bare minimum of expectations.",
+            "confidence": "99.63%"
+        }
+    ],
+    "negative": [
+        {
+            "review": "This product is waste of money",
+            "confidence": "99.98%"
+        },
+        {
+            "review": "The product was okay. It did its job, but nothing stood out as remarkable. It met expectations but didn't exceed them",
+            "confidence": "98.29%"
+        }
+    ],
+    "neutral": []
+}
