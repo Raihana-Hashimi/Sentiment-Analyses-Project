@@ -1,0 +1,10 @@
+{
+    "positive": [],
+    "negative": [
+        {
+            "review": "OMG",
+            "confidence": "97.54%"
+        }
+    ],
+    "neutral": []
+}

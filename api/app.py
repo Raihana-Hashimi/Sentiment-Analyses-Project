@@ -1,8 +1,10 @@
 import json
 from flask import Flask, request, render_template
 from transformers import pipeline
+import os
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder=os.path.join(os.path.dirname(__file__), '../templates'))
+
 
 # Load sentiment analysis pipeline
 sentiment_pipeline = pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english")
